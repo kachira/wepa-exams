@@ -4,6 +4,10 @@ import javax.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
+import wad.domain.Person;
+import wad.domain.Post;
+import wad.repository.PersonRepository;
+import wad.repository.PostRepository;
 
 @Configuration
 @Profile(value = {"dev", "default"})
